@@ -1,0 +1,54 @@
+body {
+    background-color: #f4f6f9;
+    padding: 20px;
+}
+
+.site-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.site-card .card-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dashboard-section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.quick-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-stats .stat-box {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.order-table {
+    width: 100%;
+}
+
+.date-form {
+    margin-bottom: 15px;
+}
+
+.order-stats-container {
+    padding-right: 10px;
+}
+
+.order-details-container {
+    padding-left: 10px;
+}
